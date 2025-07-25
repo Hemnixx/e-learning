@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Master New Skills Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>LearnHub</h1>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#courses" class="nav-link">Courses</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search for courses..." class="search-input">
+                        <button class="search-btn">Search</button>
+                    </div>
+                    <button class="signup-btn">Get Started</button>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">Master New Skills with Expert-Led Courses</h2>
+                    <p class="hero-subtitle">Join thousands of learners advancing their careers with our comprehensive online courses. Learn at your own pace, anywhere, anytime.</p>
+                    <div class="hero-actions">
+                        <button class="cta-btn primary">Explore Courses</button>
+                        <button class="cta-btn secondary">Start Free Trial</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Students</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1,200+</span>
+                            <span class="stat-label">Courses</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">95%</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-visual">
+                        <div class="floating-card card-1">
+                            <div class="card-icon">📚</div>
+                            <div class="card-text">Interactive Learning</div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">🎯</div>
+                            <div class="card-text">Goal Focused</div>
+                        </div>
+                        <div class="floating-card card-3">
+                            <div class="card-icon">⭐</div>
+                            <div class="card-text">Expert Instructors</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Skills -->
+    <section class="trending-section">
+        <div class="container">
+            <h2 class="section-title">Trending Skills</h2>
+            <div class="trending-skills">
+                <div class="skill-tag">AI & Machine Learning</div>
+                <div class="skill-tag">Web Development</div>
+                <div class="skill-tag">Data Science</div>
+                <div class="skill-tag">Digital Marketing</div>
+                <div class="skill-tag">Cloud Computing</div>
+                <div class="skill-tag">Cybersecurity</div>
+                <div class="skill-tag">Mobile Development</div>
+                <div class="skill-tag">UI/UX Design</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular Courses</h2>
+                <p class="section-subtitle">Discover our most popular courses chosen by thousands of students</p>
+            </div>
+            
+            <div class="courses-grid" id="coursesGrid">
+                <div class="course-card" data-title="Complete Web Development Bootcamp">
+                    <div class="course-image">
+                        <div class="course-placeholder">💻</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Development</div>
+                        <h3 class="course-title">Complete Web Development Bootcamp</h3>
+                        <p class="course-description">Master HTML, CSS, JavaScript, React, Node.js and build real-world projects</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8 (2,341)</span>
+                            </div>
+                            <div class="course-price">$89.99</div>
+                        </div>
+                        <div class="course-instructor">By Sarah Johnson</div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-title="Data Science with Python">
+                    <div class="course-image">
+                        <div class="course-placeholder">📊</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Data Science</div>
+                        <h3 class="course-title">Data Science with Python</h3>
+                        <p class="course-description">Learn pandas, numpy, matplotlib and machine learning fundamentals</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.7 (1,892)</span>
+                            </div>
+                            <div class="course-price">$79.99</div>
+                        </div>
+                        <div class="course-instructor">By Dr. Michael Chen</div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-title="Digital Marketing Mastery">
+                    <div class="course-image">
+                        <div class="course-placeholder">📱</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Marketing</div>
+                        <h3 class="course-title">Digital Marketing Mastery</h3>
+                        <p class="course-description">SEO, Social Media, PPC, Email Marketing and Analytics strategies</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.6 (3,156)</span>
+                            </div>
+                            <div class="course-price">$69.99</div>
+                        </div>
+                        <div class="course-instructor">By Emma Rodriguez</div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-title="UI/UX Design Fundamentals">
+                    <div class="course-image">
+                        <div class="course-placeholder">🎨</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Design</div>
+                        <h3 class="course-title">UI/UX Design Fundamentals</h3>
+                        <p class="course-description">Design thinking, wireframing, prototyping with Figma and Adobe XD</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.9 (1,567)</span>
+                            </div>
+                            <div class="course-price">$74.99</div>
+                        </div>
+                        <div class="course-instructor">By Alex Thompson</div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-title="Machine Learning A-Z">
+                    <div class="course-image">
+                        <div class="course-placeholder">🤖</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">AI & ML</div>
+                        <h3 class="course-title">Machine Learning A-Z</h3>
+                        <p class="course-description">Complete guide to ML algorithms, deep learning and neural networks</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8 (2,789)</span>
+                            </div>
+                            <div class="course-price">$94.99</div>
+                        </div>
+                        <div class="course-instructor">By Prof. David Kim</div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-title="Cloud Computing with AWS">
+                    <div class="course-image">
+                        <div class="course-placeholder">☁️</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Cloud</div>
+                        <h3 class="course-title">Cloud Computing with AWS</h3>
+                        <p class="course-description">Master AWS services, deployment, and cloud architecture patterns</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.7 (1,234)</span>
+                            </div>
+                            <div class="course-price">$84.99</div>
+                        </div>
+                        <div class="course-instructor">By Lisa Wang</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="courses-actions">
+                <button class="view-all-btn">View All Courses</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Paths -->
+    <section class="learning-paths">
+        <div class="container">
+            <h2 class="section-title">Choose Your Learning Path</h2>
+            <div class="paths-grid">
+                <div class="path-card">
+                    <div class="path-icon">🚀</div>
+                    <h3>Career Accelerator</h3>
+                    <p>Fast-track your career with industry-focused skills and certifications</p>
+                    <button class="path-btn">Explore Path</button>
+                </div>
+                <div class="path-card">
+                    <div class="path-icon">🎯</div>
+                    <h3>Skill Builder</h3>
+                    <p>Build specific skills with hands-on projects and practical exercises</p>
+                    <button class="path-btn">Explore Path</button>
+                </div>
+                <div class="path-card">
+                    <div class="path-icon">🏆</div>
+                    <h3>Certification Prep</h3>
+                    <p>Prepare for industry certifications with comprehensive study materials</p>
+                    <button class="path-btn">Explore Path</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"LearnHub transformed my career. The courses are practical, engaging, and taught by industry experts. I landed my dream job within 3 months!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍💻</div>
+                        <div class="author-info">
+                            <div class="author-name">John Martinez</div>
+                            <div class="author-title">Software Developer at TechCorp</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The flexibility to learn at my own pace while working full-time was perfect. The instructors are knowledgeable and always available to help."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩‍🎨</div>
+                        <div class="author-info">
+                            <div class="author-name">Rachel Green</div>
+                            <div class="author-title">UX Designer at Creative Studio</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"I've tried many online platforms, but LearnHub stands out with its comprehensive curriculum and real-world projects. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍💼</div>
+                        <div class="author-info">
+                            <div class="author-name">David Wilson</div>
+                            <div class="author-title">Marketing Manager at StartupXYZ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Learning Journey?</h2>
+                <p>Join thousands of students who have transformed their careers with LearnHub</p>
+                <div class="cta-actions">
+                    <button class="cta-btn primary large">Get Started Today</button>
+                    <button class="cta-btn secondary large">Browse Courses</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LearnHub</h3>
+                    <p>Empowering learners worldwide with quality education and practical skills.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Courses</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 LearnHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
